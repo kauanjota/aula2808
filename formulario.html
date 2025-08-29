@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1> Tela de cadrasto</h1>
+    <h3> Prencha os campos abaixo</h3>
+    <form>
+        <label for="txtNome">Nome</label>
+        <input id="txtNome" type="text" required>
+        <br> <br>
+
+        <label for="txtIdade">Idade</label>
+       <input id="txtIdade" type="date" required>
+       <br> <br>
+
+      <label for="ListEstado"> Estado</label>
+      <select id="ListEstado">
+
+        <option value="SP">São Paulo</option>
+          <option value="SP">Rio de Janeiro</option>
+          <option value="SP">Minas Gerais</option>
+          <option value="SP">Bahia</option>
+      </select>
+      <br><br>
+
+        <label for="txtEmail">Email</label>
+        <input id="txtEmail" type="email" required>
+       <br> <br>
+
+        <label for="txtSenha">Senha</label>
+       <input id="txtSenha" type="password" required>
+       
+       <button type="submit" onclick="alert ('Cadastro efetuado com sucesso');"> Enviar</button>
+
+    </form>
+</body>
+</html>
